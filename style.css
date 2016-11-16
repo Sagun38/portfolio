@@ -1,0 +1,73 @@
+/* ------------------ NAVBAR ------------------*/
+
+/* Couleur de la bar du menu de base*/
+.navbar-default {
+  background-color: #3F51B5;
+}
+
+/* Couleur du text du menu de base*/
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+/* Couleur du text par defaut quand on passe la souris dessus*/
+.navbar-default .navbar-nav>li>a:hover {
+    color: red;
+}
+/* Couleur du fond et du text du lien actif*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+      color: #fff;
+      background-color: #3f51b5;
+      }
+
+/* Couleur du text actif quand on passe la souris dessus*/
+.navbar-default .navbar-nav>.active>a:hover{
+  color:red;
+  }
+/* ------------------ CONTAINER INDEX ------------------*/
+
+.col-md-12 {
+  text-align: center;
+  }
+
+#nom {
+  font-weight: bold;
+  font-family: Roboto;
+  color: #3f51b5;
+  font-size: 100px;
+  }
+
+#prenom {
+  font-weight: lighter;
+  font-family: Roboto;
+  color: #3f51b5;
+  font-size: 100px;
+  }
+
+  #obj {
+    font-family: Roboto;
+    font-size: 25px;
+    color: #3f51b5;
+    font-style: italic;
+  }
+
+  .btn-group-lg>.btn, .btn-lg {
+    float: right;
+    background-color: red;
+  }
+
+.img-circle {
+  	width: 200px;
+  	height: 200px;
+    filter: grayscale(100);
+    -moz-box-shadow: 2px 2px 20px #000000;
+    -webkit-box-shadow: 2px 2px 20px #000000;
+    box-shadow: 2px 2px 20px #000000;
+  }
+
+
+body {
+  background-color: #ECEEEF;
+}
