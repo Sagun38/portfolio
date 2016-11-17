@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Latest compiled and minified CSS -->
@@ -13,39 +14,104 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Portfolio Amblard Loick</title>
-  </head>
-  <body>
+</head>
+
+<body>
+    <!-- http://getbootstrap.com/css/#grid -->
     <nav class="navbar navbar-default">
-<div class="container-fluid">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">Brand</a>
-  </div>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="logo.png" /></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="apropos.html">A Propos</a></li>
+                    <li><a href="loisirs.html">Loisirs</a></li>
+                    <li class="active"><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="apropos.html">A Propos</a></li>
-      <li><a href="loisirs.html">Loisirs</a></li>
-      <li class="active"><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
-      </li>
-    </ul>
-    <form class="navbar-form navbar-left">
-      <div class="form-group">
-      </div>
-    </form>
-  </div><!-- /.navbar-collapse -->
-</div><!-- /.container-fluid -->
-</nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" id="titreMap">Actuellement en formation à It-Akademy</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <iframe width="100%" height="250" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.045295559118!2d4.861604016032931!3d45.7702824791059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea85718bc503%3A0xe33fb4a36aa61dca!2s6+Place+Charles+Hernu%2C+69100+Villeurbanne!5e0!3m2!1sfr!2sfr!4v1479375503522"
+                    style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6" id="contactMail"><u>Mail:</u> amblard.loick@gmail.com</div>
+            <div class="col-md-6" id="contactTel"><u>Téléphone:</u> 06.00.00.30.86</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="row">
+                        <div class="col-md-offset-5 col-md-2">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Adresse Mail</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="exemple@exemple.com">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-offset-5 col-md-2">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Objet</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Demande de stage">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-offset-5 col-md-2">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Message</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Bonjour..." style="height:200px;">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- /.container-fluid -->
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <span id="copy">Copyright@2016 Amblard Loïck</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <div class="container-fluid">
+    <footer class="row" id="footer">
+        <div class="col-md-12">
+            <span id="copy">Copyright@2016 Amblard Loïck</span>
+        </div>
+  </footer>
+  </div> -->
 
 
-CONTACT
 
 
 
@@ -53,7 +119,6 @@ CONTACT
 
 
 
+</body>
 
-
-  </body>
 </html>

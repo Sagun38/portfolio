@@ -1,3 +1,13 @@
+/* ---------------------- GENERAL ----------------------*/
+
+.col-md-12 {
+  text-align: center;
+  }
+
+  body {
+    background-color: #ECEEEF;
+  }
+
 /* ------------------ NAVBAR ------------------*/
 
 /* Couleur de la bar du menu de base*/
@@ -14,23 +24,20 @@
 
 /* Couleur du text par defaut quand on passe la souris dessus*/
 .navbar-default .navbar-nav>li>a:hover {
-    color: red;
+    color: #BDBDBD;
 }
 /* Couleur du fond et du text du lien actif*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-      color: #fff;
+      color: red;
       background-color: #3f51b5;
       }
 
 /* Couleur du text actif quand on passe la souris dessus*/
 .navbar-default .navbar-nav>.active>a:hover{
-  color:red;
+  color:#BDBDBD;
   }
 /* ------------------ CONTAINER INDEX ------------------*/
 
-.col-md-12 {
-  text-align: center;
-  }
 
 #nom {
   font-weight: bold;
@@ -53,21 +60,54 @@
     font-style: italic;
   }
 
-  .btn-group-lg>.btn, .btn-lg {
-    float: right;
-    background-color: red;
-  }
-
 .img-circle {
   	width: 200px;
   	height: 200px;
-    filter: grayscale(100);
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
     -moz-box-shadow: 2px 2px 20px #000000;
     -webkit-box-shadow: 2px 2px 20px #000000;
     box-shadow: 2px 2px 20px #000000;
   }
 
+#footer {
+  background-color: #3f51b5;
+  color: #fff;
+  height: 50px;
+  padding-top: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
-body {
-  background-color: #ECEEEF;
+
+/* --------------------------- Page Contact -------------------------*/
+
+#titreMap {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #3F51B5;
+}
+
+#contactMail {
+  text-align: center;
+  color: #3f51b5;
+  font-family: Roboto;
+  font-size: 30px;
+}
+
+#contactTel {
+  text-align: center;
+  color: #3f51b5;
+  font-family: Roboto;
+  font-size: 30px;
+}
+
+
+/* --------------------------- Page A Propos -------------------------*/
+.thumbnail {
+  height: 250px;
 }
