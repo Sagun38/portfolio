@@ -3,16 +3,60 @@
 .col-md-12 {
   text-align: center;
   }
+  p.col-md-6 {
+    text-align: center;
+    }
 
+p {
+  font-family: Roboto;
+  text-align: justify;
+}
   body {
     background-color: #ECEEEF;
-  }
+    min-height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+  }
+html {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: #3F51B5;
+  font-weight: bold;
+}
+
+h3 {
+    font-family: Roboto;
+    color: #BDBDBD;
+}
+
+#footer {
+  background-color: #3f51b5;
+  color: #fff;
+  height: 50px;
+  padding-top: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 /* ------------------ NAVBAR ------------------*/
 
 /* Couleur de la bar du menu de base*/
 .navbar-default {
   background-color: #3F51B5;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 /* Couleur du text du menu de base*/
@@ -73,15 +117,7 @@
     box-shadow: 2px 2px 20px #000000;
   }
 
-#footer {
-  background-color: #3f51b5;
-  color: #fff;
-  height: 50px;
-  padding-top: 15px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+
 
 
 /* --------------------------- Page Contact -------------------------*/
@@ -112,7 +148,10 @@
 #stage {
   color: red;
 }
-
+.thumbnail {
+  border: solid #3F51B5 1px;
+  padding: 30px;
+}
 
 /*
 .flex-container {
@@ -127,3 +166,56 @@
     background-color: red;
 }
 */
+
+@media all and (max-width:1205px) {
+  #containerposition {
+    padding-top: 15px;
+}
+}
+@media all and (max-width:1138px) {
+  #containerposition {
+    padding-top: 25px;
+}
+}
+.fa-2x {
+  color: #fff;
+}
+.fa-2x:hover {
+  color: #BDBDBD;
+}
+
+@media all and (max-width:479px) {
+  #nom {
+    font-size: 90px;
+  }
+}
+@media all and (max-width:433px) {
+  #nom {
+    font-size: 70px;
+  }
+}
+@media all and (max-width:320px) {
+  #nom {
+    font-size: 60px;
+  }
+}
+@media all and (max-width:433px) {
+  #prenom {
+    font-size: 60px;
+  }
+}
+@media all and (max-width:320px) {
+  #obj {
+    font-size: 20px;
+  }
+}
+@media all and (max-width:375px) {
+  #contactMail, #contactTel {
+    font-size: 20px;
+  }
+}
+@media all and (max-width:320px) {
+  #contactMail, #contactTel {
+    font-size: 20px;
+  }
+}
