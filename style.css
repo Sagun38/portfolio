@@ -30,7 +30,7 @@ a {
 
 h3 {
     font-family: Roboto;
-    color: #BDBDBD;
+    color: #2d2c2c;
 }
 
 #footer {
@@ -142,7 +142,9 @@ h3 {
   font-size: 30px;
 }
 
-
+.container-fluid {
+  width: 100%;
+}
 /* --------------------------- Page A Propos -------------------------*/
 
 #stage {
@@ -175,6 +177,17 @@ h3 {
 @media all and (max-width:1138px) {
   #containerposition {
     padding-top: 25px;
+}
+}
+@media all and (max-width:1600px) {
+  #containerposition {
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+}
+@media all and (max-width:307px) {
+  #containerposition {
+    padding-top: 120px;
 }
 }
 .fa-2x {
